@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "640051341865",
+    "project_id": "roadmate-c4173",
+    "storage_bucket": "roadmate-c4173.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640051341865:android:176f7e86cee905d9834a38",
+        "android_client_info": {
+          "package_name": "com.example.road_mate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640051341865-0prs7m50djo4r94gb4ujbr59shgs3ett.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.road_mate",
+            "certificate_hash": "e2c1dc79256d4d45e9aa8fdc5ea3b68a2b671400"
+          }
+        },
+        {
+          "client_id": "640051341865-9kbrb1mhk73ek61ssel5jfqib3dj0age.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRjuDnQCicd-Py9QVHN9lPqHoXGDnL1HU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640051341865-9kbrb1mhk73ek61ssel5jfqib3dj0age.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
