@@ -152,20 +152,25 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         GestureDetector(
                           onTap: () {
                             if (screenState == 0) {
-                              if (usernameController.text.isEmpty) {
-                                showSnackBarText("Username is still empty!");
-                              } else if (phoneController.text.isEmpty) {
-                                showSnackBarText(
-                                    "Phone number is still empty!");
-                              } else {
-                                verifyPhone(countryDial + phoneController.text);
-                              }
+                              // if (usernameController.text.isEmpty) {
+                              //   showSnackBarText("Username is still empty!");
+                              // } else if (phoneController.text.isEmpty) {
+                              //   showSnackBarText(
+                              //       "Phone number is still empty!");
+                              // } else {
+                                // verifyPhone(countryDial + phoneController.text); //commented for testing
+                                setState(() {
+                                  screenState = 1;
+                                });
+                              // }
                             } else {
-                              if (otpPin.length >= 6) {
-                                verifyOTP();
-                              } else {
-                                showSnackBarText("Enter OTP correctly!");
-                              }
+                              Navigator.of(context).push(MaterialPageRoute(
+                                  builder: (context) => HomeScreen())); //commented for testing
+                              // if (otpPin.length >= 6) {
+                              //   verifyOTP();
+                              // } else {
+                              //   showSnackBarText("Enter OTP correctly!");
+                              // }
                             }
                           },
                           child: Container(

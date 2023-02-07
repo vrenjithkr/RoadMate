@@ -8,7 +8,7 @@ Future<void> main() async {
   await Firebase.initializeApp();
   runApp(const MaterialApp(
     debugShowCheckedModeBanner: false,
-    // home: StarterPage(),
+    // home: StarterPage(),-
     home: RegisterScreen(),
   ));
 }
